@@ -2,11 +2,12 @@
   "name": "blog",
   "version": "1.0.0",
   "description": "my blog task",
-  "main": "index.js",
+  "type": "module",
+  "main": "server.js",
   "scripts": {
     "test": "",
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js"
   },
   "keywords": [
     "backend",
