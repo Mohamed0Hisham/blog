@@ -1,0 +1,24 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "my blog task",
+  "main": "index.js",
+  "scripts": {
+    "test": "",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "backend",
+    "blog",
+    "RESTful",
+    "CRUD"
+  ],
+  "author": "mohamed hisham",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongodb": "^6.12.0"
+  }
+}
