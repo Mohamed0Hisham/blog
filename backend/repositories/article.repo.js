@@ -1,4 +1,4 @@
-import { connectDB } from "../config/db.js";
+import { connectDB } from "../config/connect.js";
 
 export class ArticleRepository {
 	constructor() {

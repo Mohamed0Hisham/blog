@@ -1,10 +1,12 @@
-import { ArticleRepository } from "../repositories/articleRepository.js";
+import { ArticleRepository } from "../repositories/article.repo.js";
 
 const articleRepo = new ArticleRepository();
 
 export const getAllArticles = async (req, res) => {
 	try {
-		const filters = req.query; // Optional filters
+		console.log(req.query);
+
+		const filters = req?.query; // Optional filters
 		const articles = await articleRepo.getAllArticles(filters);
 		res.status(200).json(articles);
 	} catch (error) {

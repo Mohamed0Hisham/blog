@@ -1,16 +1,5 @@
-// import express from "express";
-
-// import connectToDatabase from "./config/connect.js";
-// const server = express();
-
-// connectToDatabase().then(() => {
-// 	server.listen(5000, () => {
-// 		console.log(`server is running ✅`);
-// 	});
-// });
-
 import express from "express";
-import articleRoutes from "./routes/articleRoutes.js";
+import articleRoutes from "./routes/article.routes.js";
 
 const app = express();
 app.use(express.json());

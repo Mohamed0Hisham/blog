@@ -5,7 +5,7 @@ import {
 	createArticle,
 	updateArticle,
 	deleteArticle,
-} from "../controllers/articleController.js";
+} from "../controllers/article.controller.js";
 
 const router = express.Router();
 
